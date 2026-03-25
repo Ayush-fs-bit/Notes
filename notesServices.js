@@ -67,9 +67,9 @@ function filteringNotes(){
   let filterNotes=[]; 
   
   if(activeview==='home'){
-    filterNotes=notes.filter(note=>note.archived===false)
+    filterNotes=notes.filter(note=>!note.archived)
   }else{
-    filterNotes=notes.filter(note=>note.archived===true)
+    filterNotes=notes.filter(note=>note.archived)
   }
   
   

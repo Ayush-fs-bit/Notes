@@ -75,7 +75,7 @@ const unpin=`
 
 //main Event listner
 document.addEventListener('DOMContentLoaded', function(){
-  applyStoredTheme()
+  applyStoredTheme();
   initNotes();
 
 

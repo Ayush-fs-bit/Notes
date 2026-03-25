@@ -13,7 +13,7 @@ async function initNotes() {
     if (notes.length === 0) {
       showEmptyspace();
     } else {
-      renderNotes(notes);
+      filteringNotes(notes);
     }
   } catch (err) {
     setErrorUI(err.message);
